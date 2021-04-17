@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>app_custom_core_chicco</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.demandware.studio.core.beehiveElementBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.demandware.studio.core.beehiveNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>cartridge/static/default/images/chiccologo_L.svg</name>
+			<type>1</type>
+			<location>C:/Users/nanostuff/Downloads/chiccologo_L.svg</location>
+		</link>
+		<link>
+			<name>cartridge/static/default/images/chiccologo_S.svg</name>
+			<type>1</type>
+			<location>C:/Users/nanostuff/Downloads/chiccologo_S.svg</location>
+		</link>
+	</linkedResources>
+</projectDescription>

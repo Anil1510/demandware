@@ -1,0 +1,36 @@
+{
+    "step-types":{
+        "script-module-step":[
+            {
+                "@type-id":"custom.BackInStockStepType",
+                "@supports-parallel-execution":"false",
+                "@supports-site-context":"true",
+                "@supports-organization-context":"false",
+                "description":"Notify subscribers when products are back in stock",
+                "module":"plugin_backinstock/cartridge/scripts/models/NotifySubscriber.js",
+                "function":"notifySubscriber",
+                "transactional":"false",
+                "timeout-in-seconds":"900",
+                "parameters":{
+                    "parameter":[]
+                },
+                "status-codes": {
+                    "status": [
+                        {
+                            "@code": "ERROR",
+                            "description": "Used when the step failed with an error."
+                        },
+                        {
+                            "@code": "FINISHED",
+                            "description": "Used when the step finished successfully."
+                        },
+                        {
+                            "@code": "FINISHED_WITH_WARNINGS",
+                            "description": "Used when the step finished with warnings."
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
